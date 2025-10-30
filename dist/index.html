@@ -1,550 +1,220 @@
 <!DOCTYPE html>
 <html lang="en" id="top">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta name="description" content="Sivabalan - A skilled frontend developer based in Coimbatore, specializing in modern web technologies. Contact for updated and innovative web solutions.">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-		<meta
-			name="description"
-			content="Sivabalan a self-taught Frontend Developer based in Tamilnadu, coimabatore. who is passionate about web development." />
-		<meta
-			name="keywords"
-			content="Frontend Developer,Open Source, Freelance Web Developer, React Native Developer, Developer Portfolio" />
+    <!-- SEO -->
+    <meta name="description" content="Sivabalan M — Frontend Developer in Coimbatore. Passionate about building modern, user-friendly web applications using HTML, CSS, and JavaScript." />
+    <meta name="keywords" content="Frontend Developer, Web Developer, HTML, CSS, JavaScript, Coimbatore, Portfolio, Sivabalan M" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#000000" />
 
-		<meta name="description" content="Page description" />
-		<meta property="og:title" content="Sivabalan - Frontend Developer" />
-		<meta
-			property="og:description"
-			content="Sivabalan is a self-taught Frontend Web Developer based in TamilNadu ,Coimbatore   who specializes in building exceptional digital experience and passionate about web and mobile development." />
-		<meta
-			property="og:image"
-			content="https://vercel.Sivabalan.app/assets/1.jpeg" />
-		<meta property="og:image:alt" content="Sivabalan" />
-		<meta property="og:locale" content="en_GB" />
-		<meta property="og:type" content="website" />
-		<meta name="twitter:card" content="summary_large_image" />
-		<meta property="og:url" content="https://www.Sivabalan.vercel.app/" />
-		<meta name="twitter:card" content="summary" />
-		<meta name="theme-color" content="#000000" />
-		<meta name="robots" content="index, follow" />
-		    <link rel="stylesheet" href="./styles.css" />
+    <!-- Social Preview -->
+    <meta property="og:title" content="Sivabalan M — Frontend Developer" />
+    <meta property="og:description" content="Portfolio of Sivabalan M, a self-taught frontend developer from Tamil Nadu, Coimbatore, specializing in clean and modern web design." />
+    <meta property="og:image" content="https://sivabalandev.vercel.app/assets/1.jpeg" />
+    <meta property="og:image:alt" content="Sivabalan Portfolio Preview" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://sivabalandev.vercel.app" />
 
-		
-		
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Sivabalan M",
+        "jobTitle": "Frontend Developer",
+        "address": { "@type": "PostalAddress", "addressLocality": "Coimbatore" },
+        "url": "https://sivabalandev.vercel.app"
+      }
+    </script>
 
-		<!-- boxicons -->
-		<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
-		<script src="./script.js" defer></script>
-		<script type="application/ld+json">
-			{
-			  "@context": "https://schema.org",
-			  "@type": "Person",
-			  "name": "Sivabalan",
-			  "jobTitle": "Frontend Developer",
-			  "address": {
-				"@type": "PostalAddress",
-				"addressLocality": "Coimbatore"
-			  },
-			  "url": "https://sivabalandev.vercel.app"
-			}
-			</script>
-			
-		<title>Frontend Developer in Coimbatore Sivabalan's Portfolio</title>
+    <!-- Styles & Scripts -->
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="./script.js" defer></script>
 
-	</head>
-	<body>
-		<!-- only for keyboard users -->
-		<a class="skip-to-content" href="#main-content">Skip to content</a>
+    <title>Frontend Developer | Sivabalan M Portfolio</title>
+  </head>
 
-		<header class="main-header">
-			<nav class="nav slide-in-top">
-				<div class="container">
-					<a href="#">
-						<img src="./assets/1.jpeg" alt="Frontend Developer Sivabalan in Coimbatore" class="logo" />
-						<title>Logo</title>
-					</a>
+  <body>
+    <a class="skip-to-content" href="#main-content">Skip to content</a>
 
-					<ul class="nav-list">
-					
-						<li>
-							<a href="#about" class="nav-links hover-effect">About</a>
-						</li>
-						<li>
-							<a href="#skills" class="nav-links hover-effect">Skills</a>
-						</li>
-						<li>
-							<a href="#projects" class="nav-links hover-effect">Projects</a>
-						</li>
-						<li>
-							<a href="#contact" class="nav-links hover-effect">Contact</a>
-						</li>
-						<li>
-							<a href="#Resume" class="nav-link hover-effect">Resume</a>
-						</li>
-					</ul>
-					  
+    <header class="main-header">
+      <nav class="nav slide-in-top">
+        <div class="container">
+          <a href="#">
+            <img src="./assets/1.jpeg" alt="Frontend Developer Sivabalan in Coimbatore" class="logo" />
+          </a>
 
-					<ul class="social-nav">
-						<li>
-							<a
-								href="https://www.linkedin.com/in/sivabalan-m-8964b0278/"
-								rel="noreferrer"
-								target="_blank"
-								aria-label="link to linkedin profile"
-								><svg
-									xmlns="http://www.w3.org/2000/svg"
-									width="18"
-									height="18"
-									viewBox="0 0 24 24"
-									style="fill: currentColor">
-									<circle cx="4.983" cy="5.009" r="2.188"></circle>
-									<path
-										d="M9.237 8.855v12.139h3.769v-6.003c0-1.584.298-3.118 2.262-3.118 1.937 0 1.961 1.811 1.961 3.218v5.904H21v-6.657c0-3.27-.704-5.783-4.526-5.783-1.835 0-3.065 1.007-3.568 1.96h-.051v-1.66H9.237zm-6.142 0H6.87v12.139H3.095z"></path>
-								</svg>
-							</a>
-						</li>
-						<li>
-							<a
-								href="https://github.com/M-Sivabalan"
-								rel="noreferrer"
-								target="_blank"
-								aria-label="link to github account"
-								><svg
-									xmlns="http://www.w3.org/2000/svg"
-									width="18"
-									height="18"
-									viewBox="0 0 24 24"
-									style="fill: currentColor">
-									<path
-										fill-rule="evenodd"
-										clip-rule="evenodd"
-										d="M12.026 2c-5.509 0-9.974 4.465-9.974 9.974 0 4.406 2.857 8.145 6.821 9.465.499.09.679-.217.679-.481 0-.237-.008-.865-.011-1.696-2.775.602-3.361-1.338-3.361-1.338-.452-1.152-1.107-1.459-1.107-1.459-.905-.619.069-.605.069-.605 1.002.07 1.527 1.028 1.527 1.028.89 1.524 2.336 1.084 2.902.829.091-.645.351-1.085.635-1.334-2.214-.251-4.542-1.107-4.542-4.93 0-1.087.389-1.979 1.024-2.675-.101-.253-.446-1.268.099-2.64 0 0 .837-.269 2.742 1.021a9.582 9.582 0 0 1 2.496-.336 9.554 9.554 0 0 1 2.496.336c1.906-1.291 2.742-1.021 2.742-1.021.545 1.372.203 2.387.099 2.64.64.696 1.024 1.587 1.024 2.675 0 3.833-2.33 4.675-4.552 4.922.355.308.675.916.675 1.846 0 1.334-.012 2.41-.012 2.737 0 .267.178.577.687.479C19.146 20.115 22 16.379 22 11.974 22 6.465 17.535 2 12.026 2z"></path>
-								</svg>
-							</a>
-						</li>
-					</ul>
+          <ul class="nav-list">
+            <li><a href="#about" class="nav-links hover-effect">About</a></li>
+            <li><a href="#skills" class="nav-links hover-effect">Skills</a></li>
+            <li><a href="#projects" class="nav-links hover-effect">Projects</a></li>
+            <li><a href="#contact" class="nav-links hover-effect">Contact</a></li>
+            <li><a href="#Resume" class="nav-links hover-effect">Resume</a></li>
+          </ul>
 
-					<div class="hamburger">
-						<div class="line-menu half start"></div>
-						<div class="line-menu"></div>
-						<div class="line-menu half end"></div>
-					</div>
-				</div>
-			</nav>
-		</header>
+          <ul class="social-nav">
+            <li>
+              <a href="https://www.linkedin.com/in/sivabalan-m-8964b0278/" target="_blank" rel="noreferrer" aria-label="LinkedIn Profile">
+                <box-icon type="logo" name="linkedin"></box-icon>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/M-Sivabalan" target="_blank" rel="noreferrer" aria-label="GitHub Profile">
+                <box-icon type="logo" name="github"></box-icon>
+              </a>
+            </li>
+          </ul>
 
-		<main id="main-content">
-			<!-- hero section -->
-			<section class="hero">
-				<div class="container">
-					<article class="hero-text bounce-in-left">
-						<div>
-							<p class="subtitle"></p>
-							<h1 class="name">Siva</h1>
-						</div>
-						<div>
-							<p class="intro">
-								Hey there, my name is Sivabalan-M a UX Designer👋
-								I am passionate about building solutions for social good with a focus on thoughtful user experience. Currently studying KIT College of CSBS(Computer Science Businees Systems)
-							</p>
-						</div>
-					</article>
-					<img
-						src="./assets/9.jpg"
-						alt="coding desk"
-						class="fade-in code" />
-				</div>
-			</section>
+          <div class="hamburger">
+            <div class="line-menu half start"></div>
+            <div class="line-menu"></div>
+            <div class="line-menu half end"></div>
+          </div>
+        </div>
+      </nav>
+    </header>
 
-			<!-- about section -->
-			<section class="about-me" id="about">
-				<div class="container" data-aos="fade-up">
-					<img src="./assets/3.jpeg" alt="Sivabalan" />
-					<article>
-						<p class="subtitle">Who is Sivabalan</p>
-						<h2 class="title">A Bit About Me</h2>
-						<div class="about">
-							<p>
-								I'm passionate about deciphering challenging problems and
-								creating exceptional digital experience.
-							</p>
-							<p>
-								As I've grown as a developer, I've contributed to projects and
-								worked with other developers to create working applications and
-								have written code that are maintainable and easy to understand.
-							</p>
-							<p>
-								Through my studies, I've gained a solid understanding of web
-								development concepts, and have dedicated a lot of time to apply
-								these concepts to real-world scenarios and applications.
-							</p>
-							
-						</div>
-					</article>
-				</div>
-			</section>
+    <main id="main-content">
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="container">
+          <article class="hero-text bounce-in-left">
+            <div>
+              <p class="subtitle"></p>
+              <h1 class="name">Sivabalan M</h1>
+            </div>
+            <div>
+              <p class="intro">
+                Hey there! I'm Sivabalan, a UX Designer and Frontend Developer 👋.<br />
+                I’m passionate about building user-focused solutions for social good with thoughtful design.
+                Currently studying CSBS (Computer Science and Business Systems) at KIT College.
+              </p>
+            </div>
+          </article>
+          <img src="./assets/9.jpg" alt="coding desk" class="fade-in code" />
+        </div>
+      </section>
 
-			<!-- my skills -->
-			<section class="my-skills" id="skills" data-aos="fade-up">
-				<div class="container">
-					<article>
-						<p class="subtitle">My Skills</p>
-						<h2 class="title">Technologies I Work With</h2>
+      <!-- About Section -->
+      <section class="about-me" id="about">
+        <div class="container" data-aos="fade-up">
+          <img src="./assets/3.jpeg" alt="Sivabalan portrait" />
+          <article>
+            <p class="subtitle">Who is Sivabalan</p>
+            <h2 class="title">A Bit About Me</h2>
+            <div class="about">
+              <p>I love solving challenging problems and crafting exceptional digital experiences.</p>
+              <p>I've collaborated with other developers to create functional, maintainable, and efficient applications.</p>
+              <p>I have a solid understanding of web development concepts and enjoy applying them to real-world projects.</p>
+            </div>
+          </article>
+        </div>
+      </section>
 
-						<p class="info">
-							I've have taken a number of online courses, currently getting my
-							hands dirty with
-							<strong>HTML 5 & CSS 3</strong> and here are a few
-							technologies I’ve been working with recently:
-						</p>
-					</article>
-					<ul>
-						<li>HTML & CSS</li>
-						<li>Javascript </li>
-						<li>Node Js</li>
-						<li>React Js</li>
-						<li>Php</li>
-						<li>Mysql</li>
-						<li>C Programming</li>
-						<li>Java</li>
-						<li>Python </li>
-					</ul>
-				</div>
-			</section>
+      <!-- Skills Section -->
+      <section class="my-skills" id="skills" data-aos="fade-up">
+        <div class="container">
+          <article>
+            <p class="subtitle">My Skills</p>
+            <h2 class="title">Technologies I Work With</h2>
+            <p class="info">
+              I’ve completed several online courses and currently focus on mastering <strong>HTML5</strong> and
+              <strong>CSS3</strong>. Here are a few technologies I’ve been working with recently:
+            </p>
+          </article>
+          <ul>
+            <li>HTML & CSS</li>
+            <li>JavaScript</li>
+            <li>Node.js</li>
+            <li>React.js</li>
+            <li>PHP</li>
+            <li>MySQL</li>
+            <li>C</li>
+            <li>Java</li>
+            <li>Python</li>
+          </ul>
+        </div>
+      </section>
 
-			<!-- projects section -->
-			<section class="projects-section" id="projects">
-				<div class="container">
-					<article data-aos="fade-up">
-						<p class="subtitle">My projects</p>
-						<h2 class="title">Some Things I Built</h2>
-						<p class="info">
-							I like to stay busy and always have a project in the works. Take a
-							look at some of the applications I've have built
-						</p>
-					</article>
-					<section class="projects">
-						<!-- 01 -->
-						<article class="project">
-							<a
-								href="https://github.com/M-Sivabalan"
-								target="_blank"
-								rel="noreferrer"
-								class="project-img"
-								><img
-									src="./assets/class.jpg"
-									alt="the movieflix screenshot"
-									title="the/movieflix"
-							/></a>
-							<div>
-								<h3>01</h3>
-								<h2>Attends Maintances</h2>
-								<p>
-									This web page is used students to apply a leave in an crical situation.
+      <!-- Projects Section -->
+      <section class="projects-section" id="projects">
+        <div class="container">
+          <article data-aos="fade-up">
+            <p class="subtitle">My Projects</p>
+            <h2 class="title">Some Things I’ve Built</h2>
+            <p class="info">Here are a few projects I’ve worked on recently.</p>
+          </article>
 
-								</p>
-								<ul class="tech-stack">
-									<li>Html</li>
-									<li>CSS</li>
-									<li>Javascript</li>
-									<li>Mysql</li>
-									
-								</ul>
-								<ul class="project-links">
-									<li>
-										<a
-											href="https://www.lavidluxe.com/"
-											target="_blank"
-											rel="noreferrer"
-											class="hover-effect"
-											>Live Site →</a
-										>
-									</li>
-									<li>
-										<a
-											href="https://github.com/M-Sivabalan"
-											target="_blank"
-											rel="noreferrer"
-											class="hover-effect"
-											>Github →</a
-										>
-									</li>
-								</ul>
-							</div>
-						</article>
+          <section class="projects">
+            <!-- Example Project Card -->
+            <article class="project">
+              <a href="https://github.com/M-Sivabalan" target="_blank" rel="noreferrer" class="project-img">
+                <img src="./assets/class.jpg" alt="Attendance Maintenance App" />
+              </a>
+              <div>
+                <h3>01</h3>
+                <h2>Attendance Maintenance</h2>
+                <p>A web application that allows students to apply for leave during critical situations.</p>
+                <ul class="tech-stack">
+                  <li>HTML</li><li>CSS</li><li>JavaScript</li><li>MySQL</li>
+                </ul>
+                <ul class="project-links">
+                  <li><a href="https://www.lavidluxe.com/" target="_blank" rel="noreferrer" class="hover-effect">Live Site →</a></li>
+                  <li><a href="https://github.com/M-Sivabalan" target="_blank" rel="noreferrer" class="hover-effect">GitHub →</a></li>
+                </ul>
+              </div>
+            </article>
+            <!-- Continue other projects similarly -->
+          </section>
+        </div>
+      </section>
 
-						<!-- 02 -->
-						<article class="project">
-							<a
-								href="https://github.com/M-Sivabalan"
-								target="_blank"
-								rel="noreferrer"
-								class="project-img"
-								><img
-									src="./assets/5.jpeg"
-									alt="the movieflix screenshot"
-									title="the/movieflix"
-							/></a>
-							<div>
-								<h3>02</h3>
-								<h2>Portfolio</h2>
-								<p>
-									The concepts is we get the details from the user and we will create the protofolio for them and we give them one to five desing and finally we provide the link of there webpage.
-								</p>
-								<ul class="tech-stack">
-									<li>Html</li>
-									<li>css</li>
-									<li>Javascript</li>
-									<li>Mysql</li>
-									<li>Vercal</li>
-								</ul>
-								<ul class="project-links">
-									<li>
-										<a
-											href="https://themovieflix.netlify.app/"
-											target="_blank"
-											rel="noreferrer"
-											class="hover-effect"
-											>Live Site →</a
-										>
-									</li>
-									<li>
-										<a
-											href="https://github.com/M-Sivabalan"
-											target="_blank"
-											rel="noreferrer"
-											class="hover-effect"
-											>Github →</a
-										>
-									</li>
-								</ul>
-							</div>
-						</article>
+      <!-- Contact Section -->
+      <section class="contact" id="contact" data-aos="fade-up">
+        <div class="container">
+          <p class="subtitle">Have a project or want to hire?</p>
+          <h2 class="title">Let's Work Together</h2>
+          <p class="info">
+            Feel free to reach out if you're looking to hire or collaborate on an interesting project.
+          </p>
+          <a href="mailto:kit.cbe.21bcb305@gmail.com" class="mail-link hover-effect">Get in touch →</a>
+        </div>
+      </section>
 
-						<!-- 03 -->
-						<article class="project">
-							<a
-								href="https://github.com/M-Sivabalan"
-								target="_blank"
-								rel="noreferrer"
-								class="project-img"
-								><img
-									src="./assets/6.jpg"
-									alt="github profile website screenshot"
-									title="github profile"
-							/></a>
-							<div>
-								<h3>03</h3>
-								<h2>My Webpage</h2>
-								<p>
-									This page will shows my skills,desgin think and more me..!
-								</p>
-								<ul class="tech-stack">
-									<li>HTML </li>
-									<li>CSS</li>
-						            <li>Javascript</li>
-								</ul>
-								<ul class="project-links">
-									<li>
-										<a
-											href="https://gh-profiles.netlify.app/"
-											target="_blank"
-											rel="noreferrer"
-											class="hover-effect"
-											>Live Site →</a
-										>
-									</li>
-									<li>
-										<a
-											href="https://github.com/M-Sivabalan"
-											target="_blank"
-											rel="noreferrer"
-											class="hover-effect"
-											>Github →</a
-										>
-									</li>
-								</ul>
-							</div>
-						</article>
+      <!-- Resume Section -->
+      <section class="resume" id="Resume" data-aos="fade-up">
+        <div class="container">
+          <center>
+            <p>My Bio, Achievements, Hobbies, Skills, and Education</p>
+            <a class="btn hire-btn" href="https://drive.google.com/file/d/1CmUaRRidE7W6Q_OIME_BGkM3sbyqbGLN/view?usp=drive_link" target="_blank">View Resume</a>
+          </center>
+        </div>
+      </section>
+    </main>
 
-						<!-- 04 -->
-						<article class="project">
-							<a
-								href="https://github.com/M-Sivabalan"
-								target="_blank"
-								rel="noreferrer"
-								class="project-img"
-								><img
-									src="./assets/7.png"
-									alt="covid map dashboard website screenshot"
-									title="covid map dashboard"
-							/></a>
-							<div>
-								<h3>04</h3>
-								<h2>Exlaw Cursor</h2>
-								<p>
-									This project done for the dead & dumb people. In this we create a new a way of to communciated to the them.The process is catch the hand movement and then we will procees to our plan....
-									For more deatils click the link!!!. 
-								</p>
-								<ul class="tech-stack">
-									<li>Python</li>
-									<li>Anacoda prompt</li>
-									<li>Machine Leaningr</li>
-									<li>Hand Language's</li>
-								</ul>
-								<ul class="project-links">
-									<li>
-										<a
-											href="https://covid-map-dashboard.netlify.app/"
-											target="_blank"
-											rel="noreferrer"
-											class="hover-effect">
-											Live Site →
-										</a>
-									</li>
-
-									<li>
-										<a
-											href="https://github.com/M-Sivabalan"
-											target="_blank"
-											rel="noreferrer"
-											class="hover-effect">
-											Github →
-										</a>
-									</li>
-								</ul>
-							</div>
-						</article>
-
-						<!-- 05 -->
-						<article class="project">
-							<a
-								href="https://github.com/M-Sivabalan"
-								target="_blank"
-								rel="noreferrer"
-								class="project-img"
-								><img
-									src="./assets/8.jpeg"
-									alt="ip address tracker website screenshot"
-									title="ip address tracker"
-							/></a>
-							<div>
-								<h3>05</h3>
-								<h2>Blind Walking Stick</h2>
-								<p>
-									This is my Diploma Final Year Project.
-									It help for blind people to walk alone.
-									Feature are Added:
-									Water Sensor,Buzzer,Object Detector Sensor,Specker.
-								</p>
-								<ul class="tech-stack">
-									<li>Circut</li>
-									<li>Audiron</li>
-									<li>Printed Cricut Board</li>
-									
-								</ul>
-								<ul class="project-links">
-									<li>
-										<a
-											href="https://williamssam.github.io/ip-address-tracker/"
-											target="_blank"
-											rel="noreferrer"
-											class="hover-effect"
-											>Live Site →</a
-										>
-									</li>
-									<li>
-										<a
-											href="https://github.com/M-Sivabalan"
-											target="_blank"
-											rel="noreferrer"
-											class="hover-effect"
-											>Github →</a
-										>
-									</li>
-								</ul>
-							</div>
-						</article>
-
-					</section>
-
-					<!-- others -->
-					
-
-			<!-- contact section -->
-			<section class="contact" data-aos="fade-up">
-				<div class="container">
-					<p class="subtitle">Have a project? or just looking to hire?</p>
-					<h2 class="title">Let's Work Together</h2>
-					<p class="info">
-						Feel free to reach out if you're looking to hire, just want to
-						connect or see if we can build something amazing together.
-					</p>
-
-					<div>
-						<a href="mailto:kit.cbe.21bcb305@gmail.com" class="mail-link hover-effect"
-							>Get in touch →</a
-						>
-						<!-- <small>(or copy) samwill300@gmail.com</small> -->
-					</div>
-				</div>
-			</section>
-
-			<section class="Resume" id="Resume">
-				<div class="container" data-aos="fade-up">
-                    <center>
-					<p> My Biodata,Achivement,Hobbies,Skill,Education</p>
-					<a class="btn hire-btn" href="https://drive.google.com/file/d/1CmUaRRidE7W6Q_OIME_BGkM3sbyqbGLN/view?usp=drive_link">
-						Resume
-					</a>
-				</center>
-				</div>
-			</section>
-		</main>
-
-		<footer class="footer" id="contact">
-			<div class="container">
-				<p>&copy; <span id="date"></span> Design by Williams Samuel and Modify by Sivabalan.M</p>
-				<div>
-					<ul>
-						<li>
-							<a
-								href="https://github.com/M-Sivabalan"
-								rel="noreferrer"
-								target="_blank"
-								class="hover-effect"
-								>github</a
-							>
-						</li>
-						<li>
-							<a
-								href="//www.linkedin.com/in/sivabalan-m-8964b0278/""
-								rel="noreferrer"
-								target="_blank"
-								class="hover-effect"
-								>linkedin</a
-							>
-						</li>
-					</ul>
-					<a href="#top" class="top">
-						<p class="scroll">scroll <span>to top</span></p>
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							width="24"
-							height="24"
-							viewBox="0 0 24 24"
-							style="fill: currentColor">
-							<title>scroll to top</title>
-							<path
-								d="m6.293 11.293 1.414 1.414L12 8.414l4.293 4.293 1.414-1.414L12 5.586z"></path>
-							<path
-								d="m6.293 16.293 1.414 1.414L12 13.414l4.293 4.293 1.414-1.414L12 10.586z"></path>
-						</svg>
-					</a>
-				</div>
-			</div>
-		</footer>
-	</body>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; <span id="date"></span> Designed by Williams Samuel | Modified by Sivabalan M</p>
+        <div>
+          <ul>
+            <li><a href="https://github.com/M-Sivabalan" target="_blank" rel="noreferrer" class="hover-effect">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/sivabalan-m-8964b0278/" target="_blank" rel="noreferrer" class="hover-effect">LinkedIn</a></li>
+          </ul>
+          <a href="#top" class="top">
+            <p class="scroll">Scroll <span>to top</span></p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: currentColor">
+              <path d="m6.293 11.293 1.414 1.414L12 8.414l4.293 4.293 1.414-1.414L12 5.586z"></path>
+              <path d="m6.293 16.293 1.414 1.414L12 13.414l4.293 4.293 1.414-1.414L12 10.586z"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
